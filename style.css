@@ -179,78 +179,133 @@ body {
   margin-bottom: 4rem;
 }
 
-.groups-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 3rem;
+.groups-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
-.group-card {
+.group-section {
   background: var(--color-white);
   border-radius: 20px;
-  padding: 2rem;
+  padding: 2.5rem;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
-.group-card:hover {
+.group-section:hover {
   transform: translateY(-5px);
 }
 
 .group-header {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--color-bg);
 }
 
-.group-header h3 {
+.group-title {
   color: var(--color-primary);
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 .group-description {
   color: var(--color-gray-light);
-  margin-bottom: 2rem;
-  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .books-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
 }
 
-.book-item {
-  text-align: center;
+.book-card {
+  background: var(--color-white);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-  padding: 1rem;
-  border-radius: 10px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: 2px solid transparent;
 }
 
-.book-item:hover {
-  background-color: var(--color-bg);
-  transform: scale(1.05);
+.book-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border-color: var(--color-secondary);
 }
 
 .book-cover {
-  width: 80px;
-  height: 100px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-  border-radius: 8px;
-  margin: 0 auto 0.5rem;
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover .book-cover img {
+  transform: scale(1.05);
+}
+
+.book-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(30, 88, 33, 0.9);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
   color: var(--color-white);
+}
+
+.book-card:hover .book-overlay {
+  opacity: 1;
+}
+
+.book-overlay i {
   font-size: 2rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.5rem;
+}
+
+.book-overlay span {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.book-info {
+  padding: 1.5rem;
 }
 
 .book-title {
-  font-size: 0.9rem;
-  color: var(--color-gray-dark);
+  color: var(--color-primary);
+  font-size: 1.3rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.book-id {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* Modal Styles */
@@ -275,9 +330,9 @@ body {
 .modal-content {
   background: var(--color-white);
   margin: 2rem;
-  padding: 2rem;
+  padding: 0;
   border-radius: 20px;
-  max-width: 600px;
+  max-width: 700px;
   width: 90%;
   max-height: 80vh;
   overflow-y: auto;
@@ -300,43 +355,81 @@ body {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: none;
+  background: rgba(0, 0, 0, 0.5);
   border: none;
-  font-size: 2rem;
-  color: var(--color-gray-light);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  color: var(--color-white);
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: background-color 0.3s ease;
+  z-index: 10;
 }
 
 .modal-close:hover {
-  color: var(--color-primary);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .modal-book-cover {
-  width: 150px;
-  height: 200px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-  border-radius: 15px;
-  margin: 0 auto 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-white);
-  font-size: 3rem;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
 }
 
-.modal h2 {
+.modal-book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-book-info {
+  padding: 2rem;
+}
+
+.modal-book-info h2 {
   color: var(--color-primary);
-  text-align: center;
+  font-size: 2rem;
   margin-bottom: 1rem;
-  font-size: 1.8rem;
+  font-weight: 700;
 }
 
-.modal p {
+.modal-book-id,
+.modal-collection {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.modal-book-id strong,
+.modal-collection strong {
+  color: var(--color-primary);
+}
+
+.modal-book-id {
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+
+.modal-collection {
+  color: var(--color-gray-dark);
+}
+
+.modal-description {
+  margin-top: 2rem;
+}
+
+.modal-description h3 {
+  color: var(--color-primary);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.modal-description p {
   color: var(--color-gray-dark);
   line-height: 1.8;
-  margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 /* Footer */
@@ -424,8 +517,17 @@ body {
     font-size: 2rem;
   }
 
-  .groups-grid {
-    grid-template-columns: 1fr;
+  .group-title {
+    font-size: 1.8rem;
+  }
+
+  .group-description {
+    font-size: 1rem;
+  }
+
+  .books-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
   }
 
   .blog-grid {
@@ -434,23 +536,18 @@ body {
 
   .modal-content {
     margin: 1rem;
+  }
+
+  .modal-book-info {
     padding: 1.5rem;
   }
 
-  .books-grid {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  }
-
-  .book-cover {
-    width: 60px;
-    height: 80px;
+  .modal-book-info h2 {
     font-size: 1.5rem;
   }
 
-  .modal-book-cover {
-    width: 120px;
-    height: 160px;
-    font-size: 2.5rem;
+  .group-section {
+    padding: 2rem;
   }
 }
 
@@ -467,11 +564,23 @@ body {
     padding: 2rem 1rem;
   }
 
-  .group-card {
+  .group-section {
     padding: 1.5rem;
   }
 
   .footer {
     padding: 2rem 1rem 1rem;
+  }
+
+  .books-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .book-cover {
+    height: 180px;
+  }
+
+  .modal-book-cover {
+    height: 250px;
   }
 }

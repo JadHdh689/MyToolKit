@@ -1,4 +1,4 @@
-// Sample data for books and groups
+// Sample data for books and groups - properly structured
 const booksData = {
   group1: {
     title: "Educational Fundamentals",
@@ -7,17 +7,26 @@ const booksData = {
       {
         id: "book1.1",
         title: "Learning Basics",
-        description: "This comprehensive guide introduces the fundamental principles of effective learning. It covers various learning styles, memory techniques, and strategies for academic success. Perfect for students and educators looking to enhance their understanding of how learning works."
+        description: "This comprehensive guide introduces the fundamental principles of effective learning. It covers various learning styles, memory techniques, and strategies for academic success. Perfect for students and educators looking to enhance their understanding of how learning works.",
+        image: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=300"
       },
       {
         id: "book1.2", 
         title: "Study Methods",
-        description: "Discover proven study techniques and methodologies that have helped thousands of students achieve academic excellence. This book provides practical tips, time management strategies, and effective note-taking methods."
+        description: "Discover proven study techniques and methodologies that have helped thousands of students achieve academic excellence. This book provides practical tips, time management strategies, and effective note-taking methods.",
+        image: "https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=300"
       },
       {
         id: "book1.3",
         title: "Academic Success",
-        description: "A complete roadmap to academic achievement, covering goal setting, motivation techniques, and overcoming common academic challenges. Essential reading for anyone serious about their educational journey."
+        description: "A complete roadmap to academic achievement, covering goal setting, motivation techniques, and overcoming common academic challenges. Essential reading for anyone serious about their educational journey.",
+        image: "https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&w=300"
+      },
+      {
+        id: "book1.4",
+        title: "Educational Psychology",
+        description: "Understanding the psychological aspects of learning and teaching. This book explores cognitive development, motivation theories, and effective instructional strategies.",
+        image: "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=300"
       }
     ]
   },
@@ -28,17 +37,26 @@ const booksData = {
       {
         id: "book2.1",
         title: "Critical Thinking",
-        description: "Develop your analytical and critical thinking skills with this comprehensive guide. Learn to evaluate information objectively, identify logical fallacies, and make well-reasoned decisions in both academic and professional contexts."
+        description: "Develop your analytical and critical thinking skills with this comprehensive guide. Learn to evaluate information objectively, identify logical fallacies, and make well-reasoned decisions in both academic and professional contexts.",
+        image: "https://images.pexels.com/photos/8197562/pexels-photo-8197562.jpeg?auto=compress&cs=tinysrgb&w=300"
       },
       {
         id: "book2.2",
         title: "Research Methods",
-        description: "Master the art and science of research with this detailed exploration of various research methodologies. From qualitative to quantitative approaches, this book covers everything you need to conduct meaningful research."
+        description: "Master the art and science of research with this detailed exploration of various research methodologies. From qualitative to quantitative approaches, this book covers everything you need to conduct meaningful research.",
+        image: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=300"
       },
       {
         id: "book2.3",
         title: "Data Analysis",
-        description: "Learn to interpret and analyze data effectively using modern statistical methods and tools. This book bridges the gap between theory and practical application in data analysis."
+        description: "Learn to interpret and analyze data effectively using modern statistical methods and tools. This book bridges the gap between theory and practical application in data analysis.",
+        image: "https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=300"
+      },
+      {
+        id: "book2.4",
+        title: "Advanced Statistics",
+        description: "Deep dive into statistical analysis and interpretation. Perfect for researchers and analysts who need to understand complex statistical concepts and their applications.",
+        image: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=300"
       }
     ]
   },
@@ -49,17 +67,50 @@ const booksData = {
       {
         id: "book3.1",
         title: "Leadership Skills",
-        description: "Unlock your leadership potential with proven strategies and techniques. This book covers emotional intelligence, team management, decision-making, and inspiring others to achieve common goals."
+        description: "Unlock your leadership potential with proven strategies and techniques. This book covers emotional intelligence, team management, decision-making, and inspiring others to achieve common goals.",
+        image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=300"
       },
       {
         id: "book3.2",
         title: "Communication",
-        description: "Master the art of effective communication in both personal and professional settings. Learn verbal and non-verbal communication techniques, public speaking skills, and how to build meaningful relationships."
+        description: "Master the art of effective communication in both personal and professional settings. Learn verbal and non-verbal communication techniques, public speaking skills, and how to build meaningful relationships.",
+        image: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=300"
       },
       {
         id: "book3.3",
         title: "Project Management",
-        description: "Comprehensive guide to managing projects successfully from initiation to completion. Covers planning, execution, monitoring, and closing projects while managing resources and stakeholders effectively."
+        description: "Comprehensive guide to managing projects successfully from initiation to completion. Covers planning, execution, monitoring, and closing projects while managing resources and stakeholders effectively.",
+        image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=300"
+      },
+      {
+        id: "book3.4",
+        title: "Team Building",
+        description: "Learn how to build and maintain high-performing teams. This book covers team dynamics, conflict resolution, and strategies for creating collaborative work environments.",
+        image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=300"
+      }
+    ]
+  },
+  group4: {
+    title: "Digital Innovation",
+    description: "Explore the latest trends in digital technology and innovation. These resources help readers understand and adapt to the rapidly changing digital landscape.",
+    books: [
+      {
+        id: "book4.1",
+        title: "Digital Transformation",
+        description: "Navigate the digital revolution with confidence. This book provides insights into how technology is reshaping industries and offers strategies for successful digital transformation.",
+        image: "https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=300"
+      },
+      {
+        id: "book4.2",
+        title: "AI and Machine Learning",
+        description: "Introduction to artificial intelligence and machine learning concepts. Perfect for beginners who want to understand these transformative technologies.",
+        image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=300"
+      },
+      {
+        id: "book4.3",
+        title: "Cybersecurity Basics",
+        description: "Essential knowledge for protecting digital assets and understanding cybersecurity threats. Learn about best practices for personal and organizational security.",
+        image: "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=300"
       }
     ]
   }
@@ -169,20 +220,27 @@ class BookWebsite {
     return `
       <section class="groups-section" id="books">
         <h2 class="section-title">Book Collections</h2>
-        <div class="groups-grid">
+        <div class="groups-container">
           ${Object.entries(booksData).map(([groupKey, group]) => `
-            <div class="group-card">
+            <div class="group-section">
               <div class="group-header">
-                <h3>${group.title}</h3>
+                <h3 class="group-title">${group.title}</h3>
                 <p class="group-description">${group.description}</p>
               </div>
               <div class="books-grid">
                 ${group.books.map(book => `
-                  <div class="book-item" data-book-id="${book.id}" data-group="${groupKey}">
+                  <div class="book-card" data-book-id="${book.id}" data-group="${groupKey}">
                     <div class="book-cover">
-                      <i class="fas fa-book"></i>
+                      <img src="${book.image}" alt="${book.title}" />
+                      <div class="book-overlay">
+                        <i class="fas fa-eye"></i>
+                        <span>View Details</span>
+                      </div>
                     </div>
-                    <div class="book-title">${book.title}</div>
+                    <div class="book-info">
+                      <h4 class="book-title">${book.title}</h4>
+                      <p class="book-id">${book.id}</p>
+                    </div>
                   </div>
                 `).join('')}
               </div>
@@ -255,10 +313,10 @@ class BookWebsite {
 
     // Book click events
     document.addEventListener('click', (e) => {
-      if (e.target.closest('.book-item')) {
-        const bookItem = e.target.closest('.book-item');
-        const bookId = bookItem.dataset.bookId;
-        const groupKey = bookItem.dataset.group;
+      if (e.target.closest('.book-card')) {
+        const bookCard = e.target.closest('.book-card');
+        const bookId = bookCard.dataset.bookId;
+        const groupKey = bookCard.dataset.group;
         this.openBookModal(bookId, groupKey);
       }
     });
@@ -308,11 +366,17 @@ class BookWebsite {
     const modalBody = document.getElementById('modalBody');
     modalBody.innerHTML = `
       <div class="modal-book-cover">
-        <i class="fas fa-book"></i>
+        <img src="${book.image}" alt="${book.title}" />
       </div>
-      <h2>${book.title}</h2>
-      <p><strong>Collection:</strong> ${group.title}</p>
-      <p>${book.description}</p>
+      <div class="modal-book-info">
+        <h2>${book.title}</h2>
+        <p class="modal-book-id"><strong>Book ID:</strong> ${book.id}</p>
+        <p class="modal-collection"><strong>Collection:</strong> ${group.title}</p>
+        <div class="modal-description">
+          <h3>About this book</h3>
+          <p>${book.description}</p>
+        </div>
+      </div>
     `;
 
     const modal = document.getElementById('bookModal');
