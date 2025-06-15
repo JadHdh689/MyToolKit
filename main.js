@@ -566,6 +566,10 @@ function renderApp() {
     <section class="hero" id="home">
       <div class="hero-overlay"></div>
       <div class="hero-content">
+        <h1></h1>
+        <p></p>
+        <p></p>
+        
       </div>
     </section>
 
