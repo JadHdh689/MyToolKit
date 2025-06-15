@@ -566,9 +566,6 @@ function renderApp() {
     <section class="hero" id="home">
       <div class="hero-overlay"></div>
       <div class="hero-content">
-        <h1>Educational Books for Every Age</h1>
-        <p>Discover our comprehensive collection of books designed to support emotional growth, learning, and development from early childhood through adulthood.</p>
-        <a href="#books" class="cta-button">Explore Our Books</a>
       </div>
     </section>
 
