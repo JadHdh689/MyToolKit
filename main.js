@@ -225,10 +225,10 @@ const booksData = {
       id: '5.1',
       title: 'Positive CBT Workbook',
       cover: 'images/Group 5/Book5.1/Cover5.1.png',
-      description: 'About This Book.txt',
+      description: 'About5.1.txt',
       assets: [
-        { name: 'Activity', path: 'images/Group 5/Book5.1/Activity5.1.pdf' },
-        { name: 'Guide', path: 'images/Group 5/Book5.1/Guide5.1.pdf' }
+        { name: 'Activity', path: 'images/Group 5/Book5.1/Activity5.1.jpg' },
+        { name: 'Guide', path: 'images/Group 5/Book5.1/Guide5.1.jpg' }
       ]
     }
   ]
