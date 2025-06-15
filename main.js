@@ -1,5 +1,5 @@
 // Enhanced App class with GitHub image URLs and performance optimizations
-const GITHUB_BASE_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/';
+const GITHUB_BASE_URL = 'https://github.com/JadHdh689/Book-website-2/tree/main/';
 
 // Book data with GitHub image URLs
 const bookData = {
