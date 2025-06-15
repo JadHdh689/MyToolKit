@@ -310,15 +310,7 @@ function createImageElement(src, alt = '', className = '') {
   img.alt = alt;
   if (className) img.className = className;
   
-  // Add loading state
-  img.classList.add('loading');
-  
-  img.onload = function() {
-    this.classList.remove('loading');
-  };
-  
   img.onerror = function() {
-    this.classList.remove('loading');
     this.style.opacity = '0.3';
     console.warn(`Failed to load image: ${src}`);
   };
@@ -358,9 +350,10 @@ function renderHero() {
     <section class="hero">
       <div class="hero-overlay"></div>
       <div class="hero-content">
-        <h1></h1>
-        <p></p>
-        </div>
+        <h1>MySmartKit Educational Books</h1>
+        <p>Evidence-based resources for emotional, behavioral, and cognitive development across all ages</p>
+        <a href="#groups" class="cta-button">Explore Our Collections</a>
+      </div>
     </section>
   `;
 }
@@ -381,7 +374,7 @@ function renderVideoSection() {
         </div>
         <div class="video-info">
           <h3>Discover Our Educational Approach</h3>
-          <p>Watch this short video to learn more about our evidence-based methods and how our books can support emotional and behavioral development.</p>
+          <p>Watch this short video to learn more about our evidence-based methods and how our books can support emotional and behavioral development across all age groups.</p>
         </div>
       </div>
     </section>
