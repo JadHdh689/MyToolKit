@@ -358,10 +358,9 @@ function renderHero() {
     <section class="hero">
       <div class="hero-overlay"></div>
       <div class="hero-content">
-        <h1>MySmartKit Educational Books</h1>
-        <p>Empowering children and adults with evidence-based tools for emotional growth, behavioral development, and positive psychology.</p>
-        <a href="#groups" class="cta-button">Explore Our Collections</a>
-      </div>
+        <h1></h1>
+        <p></p>
+        </div>
     </section>
   `;
 }
