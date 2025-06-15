@@ -216,14 +216,20 @@ img.loading {
 
 .blog-image {
   position: relative;
-  height: 220px;
+  height: auto;
+  min-height: 220px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
 }
 
 .blog-image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
@@ -312,16 +318,22 @@ img.loading {
 
 .group-image {
   width: 200px;
-  height: 150px;
+  height: auto;
+  min-height: 150px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
 }
 
 .group-image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
 }
 
 .group-info {
@@ -379,14 +391,20 @@ img.loading {
 
 .book-cover {
   position: relative;
-  height: 220px;
+  height: auto;
+  min-height: 220px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
 }
 
 .book-cover img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
@@ -662,16 +680,22 @@ img.loading {
 
 .modal-book-cover {
   width: 250px;
-  height: 300px;
+  height: auto;
+  min-height: 300px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
 }
 
 .modal-book-cover img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
 }
 
 .modal-book-info h2 {
@@ -785,12 +809,15 @@ img.loading {
 
 .asset-item img {
   width: 100%;
-  height: 120px;
-  object-fit: cover;
+  height: auto;
+  min-height: 120px;
+  max-height: 150px;
+  object-fit: contain;
   border-radius: 10px;
   margin-bottom: 0.8rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: filter 0.3s ease;
+  background: white;
 }
 
 .asset-item p {
@@ -807,9 +834,11 @@ img.loading {
 
 .blog-modal-image {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
   border-radius: 25px 25px 0 0;
+  background: var(--color-bg);
 }
 
 .blog-modal-info {
@@ -1199,12 +1228,12 @@ img.loading {
   }
 
   .book-cover {
-    height: 200px;
+    min-height: 200px;
   }
 
   .modal-book-cover {
     width: 200px;
-    height: 250px;
+    min-height: 250px;
   }
 
   .about-stats {
