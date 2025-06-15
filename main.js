@@ -542,10 +542,9 @@ function renderFooter() {
           <h3>MySmartKit</h3>
           <p>Empowering growth through evidence-based educational resources for all ages.</p>
           <div class="social-links">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/Quality.oflife2000"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/iug__2025/"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/@dr.souheiralhariri9392?si=KkI9wnLi5iYOPmiR"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
         <div class="footer-section">
