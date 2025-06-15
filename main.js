@@ -13,23 +13,23 @@ const bookData = {
         id: "book1.1",
         title: "Just. Be. Calm",
         description: "Just. Be. Calm is part of Tiny Tools for Big Feelings series, created especially for a short story, a calming song, and a series of practical, playful activities. This book is based on the principles of Applied Behavior Analysis (ABA) and Positive Psychology, and is designed to help children learn and practice the essential skill of calmness. Each page includes simple, visual, and research-based tools to help young children manage big emotions — especially anger and frustration.",
-        cover: `${GITHUB_BASE_URL}images/Group%201/Book1.1/Cover1.1.png`,
-        activity: `${GITHUB_BASE_URL}images/Group%201/Book1.1/Activity1.1.png`,
-        certificate: `${GITHUB_BASE_URL}images/Group%201/Book1.1/Certificate1.1.png`,
-        guide: `${GITHUB_BASE_URL}images/Group%201/Book1.1/Guide1.1.png`,
-        story: `${GITHUB_BASE_URL}images/Group%201/Book1.1/Story1.1.png`,
-        stickers: `${GITHUB_BASE_URL}images/Group%201/Book1.1/Stickers1.1.png`
+        cover: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Cover1.1.png`,
+        activity: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Activity1.1.png`,
+        certificate: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Certificate1.1.png`,
+        guide: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Guide1.1.png`,
+        story: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Story1.1.png`,
+        stickers: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Stickers1.1.png`
       },
       {
         id: "book1.2",
         title: "To Obey My Parents",
         description: "To Obey My Parents is part of Tiny Tools for Big Feelings series, designed to support children ages 3 to 5 in learning how to listen, follow rules, and respect their parents with love and understanding. This book uses techniques from Applied Behavior Analysis (ABA) and Positive Psychology to encourage positive behavior through consistent routines and gentle guidance. Each page includes children practice: Respectful listening - Following instructions - Helping around the house - using kind words",
-        cover: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Cover1.2.png`,
-        activity: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Activity1.2.jpg`,
-        certificate: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Certificate1.2.jpg`,
-        guide: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Guide1.2-p1.jpg`,
-        story: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Story1.2.jpg`,
-        stickers: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Stickers1.2.jpg`
+        cover: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Cover1.2.png`,
+        activity: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Activity1.2.jpg`,
+        certificate: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Certificate1.2.jpg`,
+        guide: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Guide1.2-p1.jpg`,
+        story: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Story1.2.jpg`,
+        stickers: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Stickers1.2.jpg`
       },
       {
         id: "book1.3",
