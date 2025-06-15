@@ -78,14 +78,18 @@ body {
   background: linear-gradient(135deg, rgba(30, 88, 33, 0.05), rgba(42, 122, 46, 0.05)), 
               url('images/Hero.jpg') center/cover;
   color: var(--color-white);
-  padding: 8rem 2rem 4rem;
+  padding: 8rem 0 4rem;
   text-align: center;
   margin-top: 70px;
   position: relative;
-  min-height: 60vh;
+  min-height: 80vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-overlay {
@@ -101,6 +105,7 @@ body {
   position: relative;
   z-index: 2;
   max-width: 800px;
+  padding: 0 2rem;
 }
 
 .hero-content h1 {
@@ -411,19 +416,24 @@ body {
 
 .book-cover {
   position: relative;
-  height: 220px;
+  height: 280px;
   overflow: hidden;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .book-cover img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 0.3s ease;
+  padding: 10px;
 }
 
 .book-card:hover .book-cover img {
-  transform: scale(1.08);
+  transform: scale(1.05);
 }
 
 .book-overlay {
@@ -694,16 +704,21 @@ body {
 
 .modal-book-cover {
   width: 250px;
-  height: 300px;
+  height: 350px;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-book-cover img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 10px;
 }
 
 .modal-book-info h2 {
@@ -817,12 +832,14 @@ body {
 
 .asset-item img {
   width: 100%;
-  height: 120px;
-  object-fit: cover;
+  height: 140px;
+  object-fit: contain;
   border-radius: 10px;
   margin-bottom: 0.8rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: filter 0.3s ease;
+  background: white;
+  padding: 5px;
 }
 
 .asset-item p {
@@ -1105,6 +1122,11 @@ body {
     display: block;
   }
 
+  .hero {
+    min-height: 60vh;
+    padding: 6rem 0 3rem;
+  }
+
   .hero-content h1 {
     font-size: 2.5rem;
   }
@@ -1207,7 +1229,8 @@ body {
   }
 
   .hero {
-    padding: 6rem 1rem 3rem;
+    padding: 6rem 0 3rem;
+    min-height: 50vh;
   }
 
   .hero-content h1 {
@@ -1239,12 +1262,12 @@ body {
   }
 
   .book-cover {
-    height: 200px;
+    height: 250px;
   }
 
   .modal-book-cover {
     width: 200px;
-    height: 250px;
+    height: 280px;
   }
 
   .about-stats {
