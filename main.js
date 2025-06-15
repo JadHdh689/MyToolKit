@@ -24,12 +24,12 @@ const bookData = {
         id: "book1.2",
         title: "To Obey My Parents",
         description: "To Obey My Parents is part of Tiny Tools for Big Feelings series, designed to support children ages 3 to 5 in learning how to listen, follow rules, and respect their parents with love and understanding. This book uses techniques from Applied Behavior Analysis (ABA) and Positive Psychology to encourage positive behavior through consistent routines and gentle guidance. Each page includes children practice: Respectful listening - Following instructions - Helping around the house - using kind words",
-        cover: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Cover1.2.png`,
-        activity: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Activity1.2.jpg`,
-        certificate: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Certificate1.2.jpg`,
-        guide: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Guide1.2-p1.jpg`,
-        story: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Story1.2.jpg`,
-        stickers: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.2/Stickers1.2.jpg`
+        cover: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Cover1.2.png`,
+        activity: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Activity1.2.jpg`,
+        certificate: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Certificate1.2.jpg`,
+        guide: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Guide1.2-p1.jpg`,
+        story: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Story1.2.jpg`,
+        stickers: `${GITHUB_BASE_URL}images/Group%201/Book1.2/Stickers1.2.jpg`
       },
       {
         id: "book1.3",
