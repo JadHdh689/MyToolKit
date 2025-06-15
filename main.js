@@ -364,7 +364,7 @@ function renderVideoSection() {
       <div class="section-title">Featured Video</div>
       <div class="video-container">
         <div class="video-wrapper">
-          <video controls width="560" height="315" poster="/images/Hero.jpg">
+          <video controls  poster="/images/Hero.jpg">
             <source src="Video.mp4" type="video/mp4" />
             Sorry, your browser doesn’t support embedded videos.
           </video>
