@@ -587,8 +587,8 @@ function renderFooter() {
   `;
 }
 
-// Modal functions
-function openBookModal(bookId) {
+// Modal functions - Expose to global scope
+window.openBookModal = function(bookId) {
   const book = findBookById(bookId);
   if (!book) return;
 
@@ -637,9 +637,9 @@ function openBookModal(bookId) {
       descElement.textContent = content;
     }
   });
-}
+};
 
-function openBlogModal(blogId) {
+window.openBlogModal = function(blogId) {
   const blog = blogData.find(b => b.id === blogId);
   if (!blog) return;
 
@@ -671,16 +671,16 @@ function openBlogModal(blogId) {
       contentElement.innerHTML = paragraphs.map(p => `<p>${p.trim()}</p>`).join('');
     }
   });
-}
+};
 
-function closeModal() {
+window.closeModal = function() {
   const modal = document.getElementById('modal');
   modal.classList.remove('active');
   document.body.style.overflow = 'auto';
-}
+};
 
-// Image viewer functions
-function openImageViewer(imagePath, imageName) {
+// Image viewer functions - Expose to global scope
+window.openImageViewer = function(imagePath, imageName) {
   const viewer = document.getElementById('image-viewer');
   const container = document.querySelector('.image-viewer-container');
   
@@ -694,13 +694,13 @@ function openImageViewer(imagePath, imageName) {
   
   viewer.classList.add('active');
   document.body.style.overflow = 'hidden';
-}
+};
 
-function closeImageViewer() {
+window.closeImageViewer = function() {
   const viewer = document.getElementById('image-viewer');
   viewer.classList.remove('active');
   document.body.style.overflow = 'auto';
-}
+};
 
 // Helper functions
 function findBookById(bookId) {
@@ -721,16 +721,16 @@ function getAgeRange(bookId) {
   return groupsData[groupNum - 1]?.ageRange || 'Unknown Age Range';
 }
 
-function handleContactForm(event) {
+window.handleContactForm = function(event) {
   event.preventDefault();
   alert('Thank you for your message! We will get back to you soon.');
   event.target.reset();
-}
+};
 
-function toggleMobileMenu() {
+window.toggleMobileMenu = function() {
   const navLinks = document.querySelector('.nav-links');
   navLinks.classList.toggle('active');
-}
+};
 
 // Initialize the application
 async function initApp() {
