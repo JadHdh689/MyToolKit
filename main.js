@@ -1,5 +1,5 @@
 // Enhanced App class with GitHub image URLs and performance optimizations
-const GITHUB_BASE_URL = 'https://github.com/JadHdh689/Book-website-2/tree/main/';
+const GITHUB_BASE_URL = 'https://raw.githubusercontent.com/JadHdh689/Book-website-2/main/';
 
 // Book data with GitHub image URLs
 const bookData = {
@@ -13,12 +13,12 @@ const bookData = {
         id: "book1.1",
         title: "Just. Be. Calm",
         description: "Just. Be. Calm is part of Tiny Tools for Big Feelings series, created especially for a short story, a calming song, and a series of practical, playful activities. This book is based on the principles of Applied Behavior Analysis (ABA) and Positive Psychology, and is designed to help children learn and practice the essential skill of calmness. Each page includes simple, visual, and research-based tools to help young children manage big emotions — especially anger and frustration.",
-        cover: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Cover1.1.png`,
-        activity: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Activity1.1.png`,
-        certificate: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Certificate1.1.png`,
-        guide: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Guide1.1.png`,
-        story: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Story1.1.png`,
-        stickers: `https://github.com/JadHdh689/Book-website-2/tree/main/images/Group%201/Book1.1/Stickers1.1.png`
+        cover: `https://raw.githubusercontent.com/JadHdh689/Book-website-2/main/images/Group%201/Book1.1/Cover1.1.png`,
+        activity: `https://raw.githubusercontent.com/JadHdh689/Book-website-2/main/images/Group%201/Book1.1/Activity1.1.png`,
+        certificate: `https://raw.githubusercontent.com/JadHdh689/Book-website-2/main/main/images/Group%201/Book1.1/Certificate1.1.png`,
+        guide: `https://raw.githubusercontent.com/JadHdh689/Book-website-2/main/images/Group%201/Book1.1/Guide1.1.png`,
+        story: `https://raw.githubusercontent.com/JadHdh689/Book-website-2/main/images/Group%201/Book1.1/Story1.1.png`,
+        stickers: `https://raw.githubusercontent.com/JadHdh689/Book-website-2/main/images/Group%201/Book1.1/Stickers1.1.png`
       },
       {
         id: "book1.2",
