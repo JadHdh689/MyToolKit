@@ -216,7 +216,7 @@ const booksData = {
         { name: 'Activity', path: '/images/Group 4/Book4.1/Activity4.1.png' },
         { name: 'Guide', path: '/images/Group 4/Book4.1/Guide4.1.png' },
         { name: 'Stickers', path: '/images/Group 4/Book4.1/Stickers4.1.png' },
-        { name: 'Certificate', path: '/images/Group 4/Book4.1/Certificate4.1.png' }
+        { name: 'Certificate', path: '/images/Group 4/Book4.1/Certificate4.1.jpg' }
       ]
     }
   ],
