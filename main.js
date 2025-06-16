@@ -94,54 +94,54 @@ const booksData = {
       ]
     },
     {
-      id: '2.2',
-      title: 'To Be a Leader',
-      cover: 'images/Group2/Book2.2/Cover2.2.jpg',
-      description: 'About2.2.txt',
-      assets: [
-        { name: 'Story', path: 'images/Group 2/Book2.2/Story2.2.jpg' },
-        { name: 'Guide', path: 'images/Group 2/Book2.2/Guide2.2.jpg' },
-        { name: 'Activity', path: 'images/Group 2/Book2.2/Activity2.2.jpg' },
-        { name: 'Stickers', path: 'images/Group 2/Book2.2/Stickers2.2.jpg' },
-        { name: 'Certificate', path: 'images/Group 2/Book2.2/Certificate2.2.jpg' }
-      ]
-    },
-    {
-      id: '2.3',
-      title: 'To Protect My Space',
-      cover: 'images/Group 2/Book2.3/cover1.3.jpg',
-      description: 'About2.3.txt',
-      assets: [
-        { name: 'Story', path: 'images/Group 2/Book2.3/story1.3.jpg' },
-        { name: 'Guide Page 1', path: 'images/Group 2/Book2.3/guide1.3-p1.jpg' },
-        { name: 'Guide Page 2', path: 'images/Group 2/Book2.3/guide1.3-p2.jpg' },
-        { name: 'Activity', path: 'images/Group 2/Book2.3/activity1.3.jpg' },
-        { name: 'Stickers', path: 'images/Group 2/Book2.3/stickers1.3.jpg' },
-        { name: 'Certificate', path: 'images/Group 2/Book2.3/certificate1.3.jpg' }
-      ]
-    },
-    {
-      id: '2.4',
-      title: 'To Manage My Time',
-      cover: 'images/Group 2/Book2.4/Cover2.4.png',
-      description: 'About2.4.txt',
-      assets: [
-        { name: 'Activity', path: 'images/Group 2/Book2.4/Activity2.4.png' },
-        { name: 'Stickers', path: 'images/Group 2/Book2.4/Stickers2.4.png' },
-        { name: 'Certificate', path: 'images/Group 2/Book2.4/Certificate2.4.png' }
-      ]
-    },
-    {
-      id: '2.5',
-      title: 'To Make My Wish Come True',
-      cover: 'images/Group 2/Book2.5/Cover2.5.png',
-      description: 'About2.5.txt',
-      assets: [
-        { name: 'Activity', path: 'images/Group 2/Book2.5/Activity2.5.png' },
-        { name: 'Guide', path: 'images/Group 2/Book2.5/Guide2.5.png' }
-      ]
-    }
-  ],
+  id: '2.2',
+  title: 'To Be a Leader',
+  cover: '/images/Group2/Book2.2/Cover2.2.jpg',
+  description: 'About2.2.txt',
+  assets: [
+    { name: 'Story', path: '/images/Group2/Book2.2/Story2.2.jpg' },
+    { name: 'Guide', path: '/images/Group2/Book2.2/Guide2.2.jpg' },
+    { name: 'Activity', path: '/images/Group2/Book2.2/Activity2.2.jpg' },
+    { name: 'Stickers', path: '/images/Group2/Book2.2/Stickers2.2.jpg' },
+    { name: 'Certificate', path: '/images/Group2/Book2.2/Certificate2.2.jpg' }
+  ]
+},
+{
+  id: '2.3',
+  title: 'To Protect My Space',
+  cover: '/images/Group2/Book2.3/cover1.3.jpg',
+  description: 'About2.3.txt',
+  assets: [
+    { name: 'Story', path: '/images/Group2/Book2.3/story1.3.jpg' },
+    { name: 'Guide Page 1', path: '/images/Group2/Book2.3/guide1.3-p1.jpg' },
+    { name: 'Guide Page 2', path: '/images/Group2/Book2.3/guide1.3-p2.jpg' },
+    { name: 'Activity', path: '/images/Group2/Book2.3/activity1.3.jpg' },
+    { name: 'Stickers', path: '/images/Group2/Book2.3/stickers1.3.jpg' },
+    { name: 'Certificate', path: '/images/Group2/Book2.3/certificate1.3.jpg' }
+  ]
+},
+{
+  id: '2.4',
+  title: 'To Manage My Time',
+  cover: '/images/Group2/Book2.4/Cover2.4.png',
+  description: 'About2.4.txt',
+  assets: [
+    { name: 'Activity', path: '/images/Group2/Book2.4/Activity2.4.png' },
+    { name: 'Stickers', path: '/images/Group2/Book2.4/Stickers2.4.png' },
+    { name: 'Certificate', path: '/images/Group2/Book2.4/Certificate2.4.png' }
+  ]
+},
+{
+  id: '2.5',
+  title: 'To Make My Wish Come True',
+  cover: '/images/Group2/Book2.5/Cover2.5.png',
+  description: 'About2.5.txt',
+  assets: [
+    { name: 'Activity', path: '/images/Group2/Book2.5/Activity2.5.png' },
+    { name: 'Guide', path: '/images/Group2/Book2.5/Guide2.5.png' }
+  ]
+}]
+,
   group3: [
   {
     id: '3.1',
