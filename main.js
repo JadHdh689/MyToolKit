@@ -209,7 +209,7 @@ const booksData = {
   group4: [
     {
       id: '4.1',
-      title: 'Me, My Mind & More',
+      title: 'To Grow with Confidence',
       cover: 'images/Group 4/Book4.1/Cover4.1.png',
       description: 'About4.1.txt',
       assets: [
@@ -587,7 +587,7 @@ function renderFooter() {
         
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2024 MySmartKit. All rights reserved.</p>
+        <p>&copy; 2025 MySmartKit. All rights reserved.</p>
       </div>
     </footer>
   `;
