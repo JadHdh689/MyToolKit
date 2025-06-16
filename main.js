@@ -4,11 +4,11 @@ const booksData = {
     {
       id: '1.1',
       title: 'Just. Be. Calm',
-      cover: 'images/Group 1/Book1.1/Cover1.1.jpg',
+      cover: 'images/group1/book1_1/cover1_1.jpg',
       description: 'About1.1.txt',
       assets: [
-        { name: 'Story', path: 'images/Group 1/Book1.1/Story1.1.png' },
-        { name: 'Guide', path: 'images/Group 1/Book1.1/Guide1.1.png' },
+        { name: 'Story', path: 'images/group1/book1_1/story1_1.png' },
+        { name: 'Guide', path: 'images/group1/book1_1/guide1_1.png' },
         { name: 'Activity', path: 'images/Group 1/Book1.1/Activity1.1.png' },
         { name: 'Stickers', path: 'images/Group 1/Book1.1/Stickers1.1.png' },
         { name: 'Certificate', path: 'images/Group 1/Book1.1/Certificate1.1.png' }
