@@ -496,21 +496,21 @@ function renderContactSection() {
             <i class="fas fa-envelope"></i>
             <div>
               <h4>Email</h4>
-              <p>info@mysmartkit.com</p>
+              <p>souheirdr1@gmail.com</p>
             </div>
           </div>
           <div class="contact-item">
             <i class="fas fa-phone"></i>
             <div>
               <h4>Phone</h4>
-              <p>+1 (555) 123-4567</p>
+              <p>+961 03 755 615</p>
             </div>
           </div>
           <div class="contact-item">
             <i class="fas fa-map-marker-alt"></i>
             <div>
               <h4>Address</h4>
-              <p>123 Education Street<br>Learning City, LC 12345</p>
+              <p>Cornish Mazraa Street<br>Beirut, Lebanon</p>
             </div>
           </div>
         </div>
@@ -566,18 +566,10 @@ function renderFooter() {
             <li><a href="#groups">Ages 18+</a></li>
           </ul>
         </div>
-        <div class="footer-section">
-          <h3>Resources</h3>
-          <ul>
-            <li><a href="#">Parent Guides</a></li>
-            <li><a href="#">Teacher Resources</a></li>
-            <li><a href="#">Therapeutic Tools</a></li>
-            <li><a href="#">Research</a></li>
-          </ul>
-        </div>
+        
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2024 MySmartKit. All rights reserved.</p>
+        <p>&copy; 2025 MySmartKit. All rights reserved.</p>
       </div>
     </footer>
   `;
