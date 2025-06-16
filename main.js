@@ -42,7 +42,7 @@ const booksData = {
     },
     {
       id: '1.4',
-      title: 'To Be Kind',
+      title: 'To Cooperate with My Friends',
       cover: 'images/Group 1/Book1.4/Cover1.4.png',
       description: 'About1.4.txt',
       assets: [
