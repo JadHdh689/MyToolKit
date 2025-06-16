@@ -454,13 +454,14 @@ function renderGroupsSection() {
 function renderAboutSection() {
   return `
     <section class="about-section" id="about">
-      <div class="section-title">About MySmartKit</div>
+      <div class="section-title"> About MySmartKit</div>
       <div class="about-grid">
         <div class="about-text">
           <h3>Evidence-Based Educational Resources</h3>
-          <p>MySmartKit provides comprehensive educational books and resources designed to support emotional, behavioral, and cognitive development across all age groups. Our materials are grounded in Applied Behavior Analysis (ABA), Cognitive Behavioral Therapy (CBT), and Positive Psychology principles.</p>
+          <p>MySmartKit provides comprehensive educational books and resources designed to support emotional, behavioral, and cognitive development across all age groups. Our materials are grounded in the principles of Applied Behavior Analysis (ABA), Cognitive Behavioral Therapy (CBT), and Positive Psychology.</p>
           <p>From early childhood through adulthood, our carefully crafted books offer practical tools, engaging activities, and proven strategies to help individuals build resilience, emotional intelligence, and positive life skills.</p>
           <p>Each book includes interactive elements, visual aids, and step-by-step guidance to ensure effective learning and lasting positive change.</p>
+          <p>📽 Many titles also feature short instructional videos accessible via QR codes, offering additional support and visual learning tools.</p>
         </div>
         <div class="about-stats">
           <div class="stat-item">
@@ -476,7 +477,7 @@ function renderAboutSection() {
             <p>Evidence-Based</p>
           </div>
           <div class="stat-item">
-            <h4>3-18+</h4>
+            <h4>3–18+</h4>
             <p>Age Range</p>
           </div>
         </div>
@@ -484,6 +485,7 @@ function renderAboutSection() {
     </section>
   `;
 }
+
 
 function renderContactSection() {
   return `
