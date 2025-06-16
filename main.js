@@ -4,7 +4,7 @@ const booksData = {
     {
       id: '1.1',
       title: 'Just. Be. Calm',
-      cover: '/images/Group 1/Book1.1/Cover1.1.png',
+      cover: '/images/Group 1/Book1.1/Cover1.1.jpg',
       description: 'About1.1.txt',
       assets: [
         { name: 'Story', path: '/images/Group 1/Book1.1/Story1.1.png' },
