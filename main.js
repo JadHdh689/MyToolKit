@@ -42,7 +42,7 @@ const booksData = {
     },
     {
       id: '1.4',
-      title: 'To Cooperate with My Friends',
+      title: 'To Be Kind',
       cover: 'images/Group 1/Book1.4/Cover1.4.png',
       description: 'About1.4.txt',
       assets: [
@@ -344,6 +344,24 @@ async function loadBlogContent(filename) {
   }
 }
 
+// Function to format text content with proper line breaks and bullet points
+function formatTextContent(content) {
+  return content
+    .split('\n')
+    .map(line => {
+      const trimmedLine = line.trim();
+      if (trimmedLine === '') {
+        return '<br>';
+      }
+      // Handle bullet points that start with • or tab+•
+      if (trimmedLine.startsWith('•') || trimmedLine.startsWith('\t•')) {
+        return `<div style="margin-left: 20px; margin-bottom: 5px;">${trimmedLine}</div>`;
+      }
+      return `<div style="margin-bottom: 10px;">${trimmedLine}</div>`;
+    })
+    .join('');
+}
+
 // Render functions
 function renderHero() {
   return `
@@ -366,7 +384,7 @@ function renderVideoSection() {
         <div class="video-wrapper">
           <video controls >
             <source src="Video.mp4" type="video/mp4" />
-            Sorry, your browser doesn’t support embedded videos.
+            Sorry, your browser doesn't support embedded videos.
           </video>
         </div>
         <div class="video-info">
@@ -454,14 +472,13 @@ function renderGroupsSection() {
 function renderAboutSection() {
   return `
     <section class="about-section" id="about">
-      <div class="section-title"> About MySmartKit</div>
+      <div class="section-title">About MySmartKit</div>
       <div class="about-grid">
         <div class="about-text">
           <h3>Evidence-Based Educational Resources</h3>
-          <p>MySmartKit provides comprehensive educational books and resources designed to support emotional, behavioral, and cognitive development across all age groups. Our materials are grounded in the principles of Applied Behavior Analysis (ABA), Cognitive Behavioral Therapy (CBT), and Positive Psychology.</p>
+          <p>MySmartKit provides comprehensive educational books and resources designed to support emotional, behavioral, and cognitive development across all age groups. Our materials are grounded in Applied Behavior Analysis (ABA), Cognitive Behavioral Therapy (CBT), and Positive Psychology principles.</p>
           <p>From early childhood through adulthood, our carefully crafted books offer practical tools, engaging activities, and proven strategies to help individuals build resilience, emotional intelligence, and positive life skills.</p>
           <p>Each book includes interactive elements, visual aids, and step-by-step guidance to ensure effective learning and lasting positive change.</p>
-          <p>📽 Many titles also feature short instructional videos accessible via QR codes, offering additional support and visual learning tools.</p>
         </div>
         <div class="about-stats">
           <div class="stat-item">
@@ -477,7 +494,7 @@ function renderAboutSection() {
             <p>Evidence-Based</p>
           </div>
           <div class="stat-item">
-            <h4>3–18+</h4>
+            <h4>3-18+</h4>
             <p>Age Range</p>
           </div>
         </div>
@@ -485,7 +502,6 @@ function renderAboutSection() {
     </section>
   `;
 }
-
 
 function renderContactSection() {
   return `
@@ -498,21 +514,21 @@ function renderContactSection() {
             <i class="fas fa-envelope"></i>
             <div>
               <h4>Email</h4>
-              <p>souheirdr1@gmail.com</p>
+              <p>info@mysmartkit.com</p>
             </div>
           </div>
           <div class="contact-item">
             <i class="fas fa-phone"></i>
             <div>
               <h4>Phone</h4>
-              <p>+961 03 755 615</p>
+              <p>+1 (555) 123-4567</p>
             </div>
           </div>
           <div class="contact-item">
             <i class="fas fa-map-marker-alt"></i>
             <div>
               <h4>Address</h4>
-              <p>Cornish Mazraa Street<br>Beirut, Lebanon</p>
+              <p>123 Education Street<br>Learning City, LC 12345</p>
             </div>
           </div>
         </div>
@@ -568,10 +584,18 @@ function renderFooter() {
             <li><a href="#groups">Ages 18+</a></li>
           </ul>
         </div>
-        
+        <div class="footer-section">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="#">Parent Guides</a></li>
+            <li><a href="#">Teacher Resources</a></li>
+            <li><a href="#">Therapeutic Tools</a></li>
+            <li><a href="#">Research</a></li>
+          </ul>
+        </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 MySmartKit. All rights reserved.</p>
+        <p>&copy; 2024 MySmartKit. All rights reserved.</p>
       </div>
     </footer>
   `;
@@ -607,7 +631,7 @@ window.openBookModal = function(bookId) {
     </div>
     <div class="modal-description">
       <h3>About This Book</h3>
-      <p id="book-description-${book.id}">Loading description...</p>
+      <div id="book-description-${book.id}">Loading description...</div>
     </div>
     <div class="modal-assets">
       <h3>Book Assets</h3>
@@ -620,11 +644,11 @@ window.openBookModal = function(bookId) {
   modal.classList.add('active');
   document.body.style.overflow = 'hidden';
 
-  // Load book description
+  // Load book description with proper formatting
   loadTextFile(book.description).then(content => {
     const descElement = document.getElementById(`book-description-${book.id}`);
     if (descElement) {
-      descElement.textContent = content;
+      descElement.innerHTML = formatTextContent(content);
     }
   });
 };
@@ -769,13 +793,13 @@ async function initApp() {
     </div>
   `;
 
-  // Load group descriptions
+  // Load group descriptions with proper formatting
   for (const group of groupsData) {
     try {
       const description = await loadTextFile(group.description);
       const descElement = document.getElementById(`group-desc-${group.id}`);
       if (descElement) {
-        descElement.textContent = description;
+        descElement.innerHTML = formatTextContent(description);
       }
     } catch (error) {
       console.error(`Error loading description for group ${group.id}:`, error);
