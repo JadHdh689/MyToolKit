@@ -9,94 +9,94 @@ const booksData = {
       assets: [
         { name: 'Story', path: '/images/group1/book1_1/story1_1.png' },
         { name: 'Guide', path: '/images/group1/book1_1/guide1_1.png' },
-        { name: 'Activity', path: '/images/Group 1/Book1.1/Activity1.1.png' },
-        { name: 'Stickers', path: 'images/Group 1/Book1.1/Stickers1.1.png' },
-        { name: 'Certificate', path: 'images/Group 1/Book1.1/Certificate1.1.png' }
+        { name: 'Activity', path: '/images/group1/book1_1/activity1_1.png' },
+        { name: 'Stickers', path: '/images/group1/book1_1/stickers1_1.png' },
+        { name: 'Certificate', path: '/images/group1/book1_1/certificate1_1.png' }
       ]
     },
     {
       id: '1.2',
       title: 'To Obey My Parents',
-      cover: 'images/Group 1/Book1.2/Cover1.2.png',
+      cover: '/images/group1/Book1_2/Cover1_2.png',
       description: 'About1.2.txt',
       assets: [
-        { name: 'Story', path: 'images/Group 1/Book1.2/Story1.2.jpg' },
-        { name: 'Guide Page 1', path: 'images/Group 1/Book1.2/Guide1.2-p1.jpg' },
-        { name: 'Guide Page 2', path: 'images/Group 1/Book1.2/Guide1.2-p2.jpg' },
-        { name: 'Activity', path: 'images/Group 1/Book1.2/Activity1.2.jpg' },
-        { name: 'Stickers', path: 'images/Group 1/Book1.2/Stickers1.2.jpg' },
-        { name: 'Certificate', path: 'images/Group 1/Book1.2/Certificate1.2.jpg' }
+        { name: 'Story', path: '/images/group1/Book1_2/Story1_2.jpg' },
+        { name: 'Guide Page 1', path: '/images/group1/Book1_2/Guide1_2-p1.jpg' },
+        { name: 'Guide Page 2', path: '/images/group1/Book1_2/Guide1_2-p2.jpg' },
+        { name: 'Activity', path: '/images/group1/Book1_2/Activity1_2.jpg' },
+        { name: 'Stickers', path: '/images/group1/Book1_2/Stickers1_2.jpg' },
+        { name: 'Certificate', path: '/images/Group1/Book1_2/Certificate1_2.jpg' }
       ]
     },
-    {
-      id: '1.3',
-      title: 'To Speak Honestly',
-      cover: 'images/Group 1/Book1.3/Cover1.3.png',
-      description: 'About1.3.txt',
-      assets: [
-        { name: 'Story', path: 'images/Group 1/Book1.3/Story1.3.png' },
-        { name: 'Guide', path: 'images/Group 1/Book1.3/Guide1.3.png' },
-        { name: 'Activity', path: 'images/Group 1/Book1.3/Activity1.3.png' },
-        { name: 'Stickers', path: 'images/Group 1/Book1.3/Stickers1.3.png' }
-      ]
-    },
-    {
-      id: '1.4',
-      title: 'To Be Kind',
-      cover: 'images/Group 1/Book1.4/Cover1.4.png',
-      description: 'About1.4.txt',
-      assets: [
-        { name: 'Activity', path: 'images/Group 1/Book1.4/Activity1.4.png' },
-        { name: 'Stickers', path: 'images/Group 1/Book1.4/Stickers1.4.png' },
-        { name: 'Certificate', path: 'images/Group 1/Book1.4/Certificate1.4.png' }
-      ]
-    },
-    {
-      id: '1.5',
-      title: 'To Listen and Focus',
-      cover: 'images/Group 1/Book1.5/Cover1.5.jpg',
-      description: 'About1.5.txt',
-      assets: [
-        { name: 'Story', path: 'images/Group 1/Book1.5/story1.5.jpg' },
-        { name: 'Guide Page 1', path: 'images/Group 1/Book1.5/guide1.5-p1.jpg' },
-        { name: 'Guide Page 2', path: 'images/Group 1/Book1.5/guide1.5-p2.jpg' },
-        { name: 'Activity', path: 'images/Group 1/Book1.5/activity1.5.jpg' },
-        { name: 'Stickers', path: 'images/Group 1/Book1.5/Stickers1.5.jpg' },
-        { name: 'Certificate', path: 'images/Group 1/Book1.5/Certificate1.5.jpg' }
-      ]
-    },
-    {
-      id: '1.6',
-      title: 'To Tidy Up My Things',
-      cover: 'images/Group 1/Book1.6/cover1.6.jpg',
-      description: 'About1.6.txt',
-      assets: [
-        { name: 'Story', path: 'images/Group 1/Book1.6/Story1.6.jpg' },
-        { name: 'Guide', path: 'images/Group 1/Book1.6/Guide1.6.jpg' },
-        { name: 'Activity', path: 'images/Group 1/Book1.6/Activity1.6.jpg' },
-        { name: 'Stickers', path: 'images/Group 1/Book1.6/Stickers1.6.jpg' },
-        { name: 'Certificate', path: 'images/Group 1/Book1.6/Certificate1.6.jpg' }
-      ]
-    }
+   {
+  id: '1.3',
+  title: 'To Speak Honestly',
+  cover: '/images/group1/Book1_3/Cover1_3.png',
+  description: 'About1.3.txt',
+  assets: [
+    { name: 'Story', path: '/images/group1/Book1_3/Story1_3.png' },
+    { name: 'Guide', path: '/images/group1/Book1_3/Guide1_3.png' },
+    { name: 'Activity', path: '/images/group1/Book1_3/Activity1_3.png' },
+    { name: 'Stickers', path: '/images/group1/Book1_3/Stickers1_3.png' }
+  ]
+},
+{
+  id: '1.4',
+  title: 'To Be Kind',
+  cover: '/images/group1/Book1_4/Cover1_4.png',
+  description: 'About1.4.txt',
+  assets: [
+    { name: 'Activity', path: '/images/group1/Book1_4/Activity1_4.png' },
+    { name: 'Stickers', path: '/images/group1/Book1_4/Stickers1_4.png' },
+    { name: 'Certificate', path: '/images/group1/Book1_4/Certificate1_4.png' }
+  ]
+},
+{
+  id: '1.5',
+  title: 'To Listen and Focus',
+  cover: '/images/group1/Book1_5/Cover1_5.jpg',
+  description: 'About1.5.txt',
+  assets: [
+    { name: 'Story', path: '/images/group1/Book1_5/Story1_5.jpg' },
+    { name: 'Guide Page 1', path: '/images/group1/Book1_5/Guide1_5-p1.jpg' },
+    { name: 'Guide Page 2', path: '/images/group1/Book1_5/Guide1_5-p2.jpg' },
+    { name: 'Activity', path: '/images/group1/Book1_5/Activity1_5.jpg' },
+    { name: 'Stickers', path: '/images/group1/Book1_5/Stickers1_5.jpg' },
+    { name: 'Certificate', path: '/images/group1/Book1_5/Certificate1_5.jpg' }
+  ]
+},
+{
+  id: '1.6',
+  title: 'To Tidy Up My Things',
+  cover: '/images/group1/Book1_6/cover1_6.jpg',
+  description: 'About1.6.txt',
+  assets: [
+    { name: 'Story', path: '/images/group1/Book1_6/Story1_6.jpg' },
+    { name: 'Guide', path: '/images/group1/Book1_6/Guide1_6.jpg' },
+    { name: 'Activity', path: '/images/group1/Book1_6/Activity1_6.jpg' },
+    { name: 'Stickers', path: '/images/group1/Book1_6/Stickers1_6.jpg' },
+    { name: 'Certificate', path: '/images/group1/Book1_6/Certificate1_6.jpg' }
+  ]
+}
   ],
   group2: [
     {
       id: '2.1',
       title: 'To Focus and Be Calm',
-      cover: 'images/Group 2/Book2.1/Cover2.1.jpg',
-      description: 'About2.1.txt',
+      cover: '/images/Group2/Book2_1/Cover2_1.jpg',
+      description: '/About2.1.txt',
       assets: [
-        { name: 'Story', path: 'images/Group 2/Book2.1/Story2.1.jpg' },
-        { name: 'Guide', path: 'images/Group 2/Book2.1/Guide2.1.jpg' },
-        { name: 'Activity', path: 'images/Group 2/Book2.1/Activity2.1.jpg' },
-        { name: 'Stickers', path: 'images/Group 2/Book2.1/Stickers2.1.jpg' },
-        { name: 'Certificate', path: 'images/Group 2/Book2.1/Certificate2.1.jpg' }
+        { name: 'Story', path: '/images/Group2/Book2_1/Story2.1.jpg' },
+        { name: 'Guide', path: '/images/Group2/Book2_1/Guide2_1.jpg' },
+        { name: 'Activity', path: '/images/Group2/Book2_1/Activity2_1.jpg' },
+        { name: 'Stickers', path: '/images/Group2/Book2_1/Stickers2_1.jpg' },
+        { name: 'Certificate', path: '/images/Group2/Book2_1/Certificate2_1.jpg' }
       ]
     },
     {
       id: '2.2',
       title: 'To Be a Leader',
-      cover: 'images/Group 2/Book2.2/Cover2.2.jpg',
+      cover: 'images/Group2/Book2.2/Cover2.2.jpg',
       description: 'About2.2.txt',
       assets: [
         { name: 'Story', path: 'images/Group 2/Book2.2/Story2.2.jpg' },
