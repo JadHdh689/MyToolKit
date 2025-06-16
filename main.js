@@ -93,130 +93,132 @@ const booksData = {
         { name: 'Certificate', path: '/images/Group2/Book2_1/Certificate2_1.jpg' }
       ]
     },
-    {
+   {
   id: '2.2',
   title: 'To Be a Leader',
-  cover: '/images/Group2/Book2.2/Cover2.2.jpg',
+  cover: '/images/Group2/Book2_2/Cover2_2.jpg',
   description: 'About2.2.txt',
   assets: [
-    { name: 'Story', path: '/images/Group2/Book2.2/Story2.2.jpg' },
-    { name: 'Guide', path: '/images/Group2/Book2.2/Guide2.2.jpg' },
-    { name: 'Activity', path: '/images/Group2/Book2.2/Activity2.2.jpg' },
-    { name: 'Stickers', path: '/images/Group2/Book2.2/Stickers2.2.jpg' },
-    { name: 'Certificate', path: '/images/Group2/Book2.2/Certificate2.2.jpg' }
+    { name: 'Story', path: '/images/Group2/Book2_2/Story2_2.jpg' },
+    { name: 'Guide', path: '/images/Group2/Book2_2/Guide2_2.jpg' },
+    { name: 'Activity', path: '/images/Group2/Book2_2/Activity2_2.jpg' },
+    { name: 'Stickers', path: '/images/Group2/Book2_2/Stickers2_2.jpg' },
+    { name: 'Certificate', path: '/images/Group2/Book2_2/Certificate2_2.jpg' }
   ]
 },
 {
   id: '2.3',
   title: 'To Protect My Space',
-  cover: '/images/Group2/Book2.3/cover1.3.jpg',
+  cover: '/images/Group2/Book2_3/cover1_3.jpg',
   description: 'About2.3.txt',
   assets: [
-    { name: 'Story', path: '/images/Group2/Book2.3/story1.3.jpg' },
-    { name: 'Guide Page 1', path: '/images/Group2/Book2.3/guide1.3-p1.jpg' },
-    { name: 'Guide Page 2', path: '/images/Group2/Book2.3/guide1.3-p2.jpg' },
-    { name: 'Activity', path: '/images/Group2/Book2.3/activity1.3.jpg' },
-    { name: 'Stickers', path: '/images/Group2/Book2.3/stickers1.3.jpg' },
-    { name: 'Certificate', path: '/images/Group2/Book2.3/certificate1.3.jpg' }
+    { name: 'Story', path: '/images/Group2/Book2_3/story1_3.jpg' },
+    { name: 'Guide Page 1', path: '/images/Group2/Book2_3/guide1_3-p1.jpg' },
+    { name: 'Guide Page 2', path: '/images/Group2/Book2_3/guide1_3-p2.jpg' },
+    { name: 'Activity', path: '/images/Group2/Book2_3/activity1_3.jpg' },
+    { name: 'Stickers', path: '/images/Group2/Book2_3/stickers1_3.jpg' },
+    { name: 'Certificate', path: '/images/Group2/Book2_3/certificate1_3.jpg' }
   ]
 },
 {
   id: '2.4',
   title: 'To Manage My Time',
-  cover: '/images/Group2/Book2.4/Cover2.4.png',
+  cover: '/images/Group2/Book2_4/Cover2_4.png',
   description: 'About2.4.txt',
   assets: [
-    { name: 'Activity', path: '/images/Group2/Book2.4/Activity2.4.png' },
-    { name: 'Stickers', path: '/images/Group2/Book2.4/Stickers2.4.png' },
-    { name: 'Certificate', path: '/images/Group2/Book2.4/Certificate2.4.png' }
+    { name: 'Activity', path: '/images/Group2/Book2_4/Activity2_4.png' },
+    { name: 'Stickers', path: '/images/Group2/Book2_4/Stickers2_4.png' },
+    { name: 'Certificate', path: '/images/Group2/Book2_4/Certificate2_4.png' }
   ]
 },
 {
   id: '2.5',
   title: 'To Make My Wish Come True',
-  cover: '/images/Group2/Book2.5/Cover2.5.png',
+  cover: '/images/Group2/Book2_5/Cover2_5.png',
   description: 'About2.5.txt',
   assets: [
-    { name: 'Activity', path: '/images/Group2/Book2.5/Activity2.5.png' },
-    { name: 'Guide', path: '/images/Group2/Book2.5/Guide2.5.png' }
+    { name: 'Activity', path: '/images/Group2/Book2_5/Activity2_5.png' },
+    { name: 'Guide', path: '/images/Group2/Book2_5/Guide2_5.png' }
   ]
-}]
+}
+  ]
 ,
   group3: [
   {
     id: '3.1',
     title: 'To Know Myself',
-    cover: '/images/Group 3/Book3.1/Cover3.1.png',
+    cover: '/images/Group3/Book3_1/Cover3_1.png',
     description: 'About3.1.txt',
     assets: [
-      { name: 'Activity', path: '/images/Group 3/Book3.1/Activity3.1.png' },
-      { name: 'Guide', path: '/images/Group 3/Book3.1/Guide3.1.png' }
+      { name: 'Activity', path: '/images/Group3/Book3_1/Activity3_1.png' },
+      { name: 'Guide', path: '/images/Group3/Book3_1/Guide3_1.png' }
     ]
   },
   {
     id: '3.2',
     title: 'Step by Step... I Will Succeed!',
-    cover: '/images/Group 3/Book3.2/Cover3.2.png',
+    cover: '/images/Group3/Book3_2/Cover3_2.png',
     description: 'About3.2.txt',
     assets: [
-      { name: 'Activity', path: '/images/Group 3/Book3.2/Activity3.2.png' },
-      { name: 'Guide', path: '/images/Group 3/Book3.2/Guide3.2.png' },
-      { name: 'Certificate', path: '/images/Group 3/Book3.2/Certificate3.2.png' }
+      { name: 'Activity', path: '/images/Group3/Book3_2/Activity3_2.png' },
+      { name: 'Guide', path: '/images/Group3/Book3_2/Guide3_2.png' },
+      { name: 'Certificate', path: '/images/Group3/Book3_2/Certificate3_2.png' }
     ]
   },
   {
     id: '3.3',
     title: 'Unlock My Mind',
-    cover: '/images/Group 3/Book3.3/cover3.3.jpg',
+    cover: '/images/Group3/Book3_3/cover3_3.jpg',
     description: 'About3.3.txt',
     assets: [
-      { name: 'Story', path: '/images/Group 3/Book3.3/story3.3.jpg' },
-      { name: 'Guide Page 1', path: '/images/Group 3/Book3.3/guide3.3-p1.jpg' },
-      { name: 'Guide Page 2', path: '/images/Group 3/Book3.3/guide3.3-p2.jpg' },
-      { name: 'Activity', path: '/images/Group 3/Book3.3/activity3.3.jpg' },
-      { name: 'Stickers', path: '/images/Group 3/Book3.3/stickers3.3.jpg' },
-      { name: 'Certificate', path: '/images/Group 3/Book3.3/certificate3.3.jpg' }
+      { name: 'Story', path: '/images/Group3/Book3_3/story3_3.jpg' },
+      { name: 'Guide Page 1', path: '/images/Group3/Book3_3/guide3_3-p1.jpg' },
+      { name: 'Guide Page 2', path: '/images/Group3/Book3_3/guide3_3-p2.jpg' },
+      { name: 'Activity', path: '/images/Group3/Book3_3/activity3_3.jpg' },
+      { name: 'Stickers', path: '/images/Group3/Book3_3/stickers3_3.jpg' },
+      { name: 'Certificate', path: '/images/Group3/Book3_3/certificate3_3.jpg' }
     ]
   },
   {
     id: '3.4',
     title: 'To Make Sense of My Feelings',
-    cover: '/images/Group 3/Book3.4/cover3.4.jpg',
+    cover: '/images/Group3/Book3_4/cover3_4.jpg',
     description: 'About3.4.txt',
     assets: [
-      { name: 'Story', path: '/images/Group 3/Book3.4/story3.4.jpg' },
-      { name: 'Guide', path: '/images/Group 3/Book3.4/guide3.4.jpg' },
-      { name: 'Activity', path: '/images/Group 3/Book3.4/activity3.4.jpg' },
-      { name: 'Stickers', path: '/images/Group 3/Book3.4/stickers3.4.jpg' },
-      { name: 'Certificate', path: '/images/Group 3/Book3.4/certificate3.4.jpg' }
+      { name: 'Story', path: '/images/Group3/Book3_4/story3_4.jpg' },
+      { name: 'Guide', path: '/images/Group3/Book3_4/guide3_4.jpg' },
+      { name: 'Activity', path: '/images/Group3/Book3_4/activity3_4.jpg' },
+      { name: 'Stickers', path: '/images/Group3/Book3_4/stickers3_4.jpg' },
+      { name: 'Certificate', path: '/images/Group3/Book3_4/certificate3_4.jpg' }
     ]
   },
   {
     id: '3.5',
     title: 'To Face My Fears',
-    cover: '/images/Group 3/Book3.5/cover3.5.jpg',
+    cover: '/images/Group3/Book3_5/cover3_5.jpg',
     description: 'About3.5.txt',
     assets: [
-      { name: 'Story', path: '/images/Group 3/Book3.5/Story3.5.jpg' },
-      { name: 'Guide Page 1', path: '/images/Group 3/Book3.5/guide3.5-p1.jpg' },
-      { name: 'Guide Page 2', path: '/images/Group 3/Book3.5/guide3.5-p2.jpg' },
-      { name: 'Activity', path: '/images/Group 3/Book3.5/activity3.5.jpg' },
-      { name: 'Stickers', path: '/images/Group 3/Book3.5/stickers3.5.jpg' },
-      { name: 'Certificate', path: '/images/Group 3/Book3.5/certificate3.5.jpg' }
+      { name: 'Story', path: '/images/Group3/Book3_5/Story3_5.jpg' },
+      { name: 'Guide Page 1', path: '/images/Group3/Book3_5/guide3_5-p1.jpg' },
+      { name: 'Guide Page 2', path: '/images/Group3/Book3_5/guide3_5-p2.jpg' },
+      { name: 'Activity', path: '/images/Group3/Book3_5/activity3_5.jpg' },
+      { name: 'Stickers', path: '/images/Group3/Book3_5/stickers3_5.jpg' },
+      { name: 'Certificate', path: '/images/Group3/Book3_5/certificate3_5.jpg' }
     ]
   }
-],
+]
+,
 group4: [
   {
     id: '4.1',
     title: 'To Grow with Confidence',
-    cover: '/images/Group 4/Book4.1/Cover4.1.png',
+    cover: '/images/Group4/Book4_1/Cover4_1.png',
     description: 'About4.1.txt',
     assets: [
-      { name: 'Activity', path: '/images/Group 4/Book4.1/Activity4.1.png' },
-      { name: 'Guide', path: '/images/Group 4/Book4.1/Guide4.1.png' },
-      { name: 'Stickers', path: '/images/Group 4/Book4.1/Stickers4.1.png' },
-      { name: 'Certificate', path: '/images/Group 4/Book4.1/Certificate4.1.jpg' }
+      { name: 'Activity', path: '/images/Group4/Book4_1/Activity4_1.png' },
+      { name: 'Guide', path: '/images/Group4/Book4_1/Guide4_1.png' },
+      { name: 'Stickers', path: '/images/Group4/Book4_1/Stickers4_1.png' },
+      { name: 'Certificate', path: '/images/Group4/Book4_1/Certificate4_1.jpg' }
     ]
   }
 ],
@@ -224,11 +226,11 @@ group5: [
   {
     id: '5.1',
     title: 'Positive CBT Workbook',
-    cover: '/images/Group 5/Book5.1/Cover5.1.png',
+    cover: '/images/Group5/Book5_1/Cover5_1.png',
     description: 'About5.1.txt',
     assets: [
-      { name: 'Activity', path: '/images/Group 5/Book5.1/Activity5.1.jpg' },
-      { name: 'Guide', path: '/images/Group 5/Book5.1/Guide5.1.jpg' }
+      { name: 'Activity', path: '/images/Group5/Book5_1/Activity5_1.jpg' },
+      { name: 'Guide', path: '/images/Group5/Book5_1/Guide5_1.jpg' }
     ]
   }
 ]
