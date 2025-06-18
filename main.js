@@ -267,7 +267,7 @@ const groupsData = [
     id: 1,
     title: 'Tiny Tools for Big Feelings',
     ageRange: 'Ages 3-5',
-    image: 'images/group 1/Group_1.jpg',
+    image: 'images/group1/Group_1.jpg',
     description: 'About_Group1.txt',
     books: booksData.group1
   },
