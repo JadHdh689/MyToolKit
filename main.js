@@ -25,7 +25,7 @@ const booksData = {
         { name: 'Guide Page 2', path: '/images/group1/Book1_2/Guide1_2-p2.jpg' },
         { name: 'Activity', path: '/images/group1/Book1_2/Activity1_2.jpg' },
         { name: 'Stickers', path: '/images/group1/Book1_2/Stickers1_2.jpg' },
-        { name: 'Certificate', path: '/images/Group1/Book1_2/Certificate1_2.jpg' }
+        { name: 'Certificate', path: '/images/group1/Book1_2/Certificate1_2.jpg' }
       ]
     },
    {
@@ -267,7 +267,7 @@ const groupsData = [
     id: 1,
     title: 'Tiny Tools for Big Feelings',
     ageRange: 'Ages 3-5',
-    image: 'images/Group 1/Group_1.jpg',
+    image: 'images/group 1/Group_1.jpg',
     description: 'About_Group1.txt',
     books: booksData.group1
   },
