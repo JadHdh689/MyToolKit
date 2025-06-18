@@ -534,21 +534,7 @@ function renderContactSection() {
             </div>
           </div>
         </div>
-        <div class="contact-form">
-          <h3>Send us a Message</h3>
-          <form onsubmit="handleContactForm(event)">
-            <div class="form-group">
-              <input type="text" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-              <input type="email" placeholder="Your Email" required>
-            </div>
-            <div class="form-group">
-              <textarea rows="5" placeholder="Your Message" required></textarea>
-            </div>
-            <button type="submit" class="submit-btn">Send Message</button>
-          </form>
-        </div>
+        
       </div>
     </section>
   `;
