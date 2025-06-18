@@ -275,7 +275,7 @@ const groupsData = [
     id: 2,
     title: 'Tiny Tools for Big Feelings',
     ageRange: 'Ages 6-8',
-    image: 'images/Group 2/Group 2.jpg',
+    image: 'images/Group2/Group2.jpg',
     description: 'About_Group2.txt',
     books: booksData.group2
   },
@@ -283,7 +283,7 @@ const groupsData = [
     id: 3,
     title: 'Tiny Tools for Big Feelings',
     ageRange: 'Ages 9-12',
-    image: 'images/Group 3/Group 3.jpg',
+    image: 'images/Group3/Group3.jpg',
     description: 'About_Group3.txt',
     books: booksData.group3
   },
@@ -291,7 +291,7 @@ const groupsData = [
     id: 4,
     title: 'Tiny Tools for Big Feelings',
     ageRange: 'Ages 13-17',
-    image: 'images/Group 4/Group 4.jpg',
+    image: 'images/Group4/Group4.jpg',
     description: 'About_Group4.txt',
     books: booksData.group4
   },
@@ -299,7 +299,7 @@ const groupsData = [
     id: 5,
     title: 'Positive CBT Collection',
     ageRange: 'Ages 18+',
-    image: 'images/Group 5/Group 5.jpg',
+    image: 'images/Group5/Group5.jpg',
     description: 'About_Group5.txt',
     books: booksData.group5
   }
