@@ -3,7 +3,7 @@
 A simple, accessible web platform designed to showcase psychology books for children and individuals with learning difficulties. Features categorized book listings, visual previews, and interactive demos to support inclusive education.
 
 🌐 **Live Demo**  
-[https://your-deployed-link.com](https://mytoolkit-books.vercel.app/)
+(https://mytoolkit-books.vercel.app/)
 
 ---
 
