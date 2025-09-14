@@ -530,7 +530,11 @@ function renderContactSection() {
             <i class="fas fa-map-marker-alt"></i>
             <div>
               <h4>Address</h4>
-              <p>Cornish El Mazraa Street<br>Beirut, Lebanon</p>
+              <p>شارع عبد العزيز خط مستشفى الجامعة
+بناية الأسود 
+حد السبينس
+Wellbeing centre 
+موجود بالبناية بالباركينغ</p>
             </div>
           </div>
         </div>
