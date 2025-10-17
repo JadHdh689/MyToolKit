@@ -530,7 +530,10 @@ function renderContactSection() {
             <i class="fas fa-map-marker-alt"></i>
             <div>
               <h4>Address</h4>
-              <p></p>
+              <p>خط مستشفى الجامعة الاميركية 
+شارع عبد العزيز 
+بناية الأسود 
+Wellbeing Center</p>
             </div>
           </div>
         </div>
